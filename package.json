@@ -1,0 +1,19 @@
+{
+  "name": "project-twitter",
+  "version": "1.0.0",
+  "description": "Twitter clone project for CAS Advanced Frontend Engineering 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tthttl/project-twitter.git"
+  },
+  "author": "Attila Toth -",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tthttl/project-twitter/issues"
+  },
+  "homepage": "https://github.com/tthttl/project-twitter#readme"
+}
