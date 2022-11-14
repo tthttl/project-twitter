@@ -27,8 +27,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: project-twitter
-          path: ./.next
-          if-no-files-found: error
+          path: .
   
   cd:
     runs-on: ubuntu-latest
