@@ -22,12 +22,6 @@ jobs:
           npm ci
           npm run build
           npm run test:ci
-
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
-        with:
-          name: project-twitter
-          path: .
   
   cd:
     runs-on: ubuntu-latest
@@ -37,10 +31,6 @@ jobs:
       url: ${{ steps.deploy.outputs.webapp-url }}
 
     steps:
-    - name: Download artifact from build job
-      uses: actions/download-artifact@v3
-      with:
-        name: project-twitter
 
     - name: 'Deploy to Azure'
       id: deploy
