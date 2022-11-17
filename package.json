@@ -19,6 +19,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "lint": "npx eslint .",
     "test": "jest --watch",
     "test:ci": "jest --ci --passWithNoTests"
   },
@@ -42,8 +43,12 @@
     "@testing-library/user-event": "14.2.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
-    "babel-loader": "^8.3.0",
-    "eslint": "^8.27.0",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
+    "babel-loader": "8.3.0",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "eslint-plugin-testing-library": "5.9.1",
     "jest": "28.1.0",
     "jest-environment-jsdom": "28.1.0",
     "typescript": "4.8.4"
