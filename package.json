@@ -7,7 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/tthttl/project-twitter.git"
   },
-  "author": "Attila Toth -",
+  "author": {
+    "name": "Attila Toth -"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tthttl/project-twitter/issues"
@@ -46,11 +48,14 @@
     "@typescript-eslint/eslint-plugin": "5.43.0",
     "@typescript-eslint/parser": "5.43.0",
     "babel-loader": "8.3.0",
+    "chromatic": "6.11.4",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "eslint-plugin-testing-library": "5.9.1",
     "jest": "28.1.0",
     "jest-environment-jsdom": "28.1.0",
     "typescript": "4.8.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "project-twitter@1.0.0"
 }
