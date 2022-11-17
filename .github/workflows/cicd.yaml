@@ -31,7 +31,4 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'project-twitter-app'
-          slot-name: 'production'
           publish-profile: ${{ secrets.WEB_APP_PUBLISH_PROFILE }}
-          package: .
-  
